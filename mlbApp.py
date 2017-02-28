@@ -4,12 +4,14 @@
     and display in the command line.
     
     This project is for scraping MLB data from mlb.com's gd2 backend.
-	Please follow the fair use guidelines at http://gdx.mlb.com/components/copyright.txt
+    Please follow the fair use guidelines at http://gdx.mlb.com/components/copyright.txt
 """
 
 import sys
 import datetime
 import urllib2
+#!/usr/bin/env python
+
 import xml.etree.ElementTree as ET
 
 __author__ = "Nathan Bryans"
